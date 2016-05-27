@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         [dev] Isleward - HP Warning
+// @name         Isleward - HP Warning
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0.0
 // @description  Warn you when you HP get low
 // @author       Silence.sys
 // @match        ://isleward-test.herokuapp.com/*
