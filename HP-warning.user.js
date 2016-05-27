@@ -7,7 +7,7 @@
 // @match        ://isleward-test.herokuapp.com/*
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
-// @resource     HPwarn http://dev.silencesys.com/isleward/hp-warn.css?v=1.112
+// @resource     HPwarn https://cdn.rawgit.com/Isleward-Addon-Dev-Group/hp-warning/1.0.0/hp-warn.css
 // ==/UserScript==
 
 (function() {
@@ -15,6 +15,6 @@
     GM_addStyle(css);
     var scriptElement = document.createElement( "script" );
     scriptElement.type = "text/javascript";
-    scriptElement.src = "http://dev.silencesys.com/isleward/hp-warn.js?v=1.104";
+    scriptElement.src = "https://cdn.rawgit.com/Isleward-Addon-Dev-Group/hp-warning/1.0.0/hp-warn.js";
     document.body.appendChild( scriptElement );
 })();
