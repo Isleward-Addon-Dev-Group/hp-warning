@@ -16,7 +16,7 @@ addons.register({
         if(hpCur <= hpMin)
         {
             $('.ui-container').addClass('HP-warning-splash');
-            if($('.HP-Warning').html().length <= 0)
+            if($('.HP-Warning').html().length <= 1)
             {
                 $('.HP-Warning').html('You have LOW HP!');
             }
