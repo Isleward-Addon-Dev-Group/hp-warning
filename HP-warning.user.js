@@ -4,7 +4,7 @@
 // @version      1.0.2
 // @description  Warn you when you HP get low
 // @author       Silence.sys
-// @match        play.isleward.com/*
+// @match        *.play.isleward.com/*
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
 // @resource     HPwarn https://cdn.rawgit.com/Isleward-Addon-Dev-Group/hp-warning/1.0.2/hp-warn.css
